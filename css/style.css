@@ -1,19 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&family=Updock&display=swap");
+
 @font-face {
-  font-family: "fac";
-  src: url(/fonts/Oswald/Oswald-Regular.ttf);
+    font-family: "Oswald";
+    src: url(/fonts/Oswald/Oswald-Regular.ttf);
+}
+
+html {
+    background-color: bisque;
+    background-image: url(../img/background.webp);
+}
+
+body {
+    margin: 50px;
 }
 
 h1 {
-  color: red;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(85, 14, 85);
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    margin: 0;
 }
 
-p {
-  color: gray;
-  font-size: 24px;
-  font-family: "fac";
+h3 {
+    color: brown;
 }
 
 img {
-  width: 500px;
+    margin: 0;
+    width: 10%;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.461);
+}
+
+.blue-text {
+    color: blue;
+}
+
+h3.blue-text {
+    border: 2px solid black;
+}
+
+.background-container {
+    background-image: url("../img/background.webp");
+    border-radius: 15px;
+    width: 100%;
+    height: 62.4px;
+    position: relative;
+    margin-bottom: 20px;
+    border: 1px dashed black;
+    min-width: 700px;
+}
+
+.overlay {
+    background-color: rgba(255, 255, 255, 0.633);
+    height: 62.4px;
+    width: 100%;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content {
+    font-size: 24px;
+    font-family: "Oswald";
+    text-transform: lowercase;
+    font-weight: lighter;
+}
+
+.main-content {
+    border: 2px solid rgba(70, 36, 36, 0.743);
+    background-color: rgb(228, 191, 145);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    min-width: 700px;
+    max-width: 1250px;
+}
+
+.black_h3 {
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.images {
+    background-color: aqua;
+}
+
+.emphasized-content {
+    box-sizing: border-box;
+    background-color: rgb(216, 199, 177);
+    width: 100%;
+    visibility: hidden;
+}
+
+.italic-bold {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.padding-20 {
+    padding: 25px;
+}
+
+.border-radius-15 {
+    border-radius: 15px;
+}
+
+.border-bottom-radius-15 {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.skills-header {
+    color: blue;
+}
+
+#first-image {
+    border: 5px solid green;
+}
+
+#second-image {
+    position: absolute;
+}
+
+#main-title {
+    color: rgb(12, 209, 144);
+}
+
+#h3_2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#h3_3,
+#h3_4 {
+    font-size: 30px;
+}
+
+#skills-header {
+    color: coral;
+}
+
+#BIO-1 {
 }
