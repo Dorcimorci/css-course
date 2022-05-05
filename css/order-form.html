@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <form>
+            <fieldset>
+                
+                <legend>Személyes adatok</legend>
+               
+                <div>
+                   <label for="name">Név: *</label>
+                    <input id="name" name="name" type="text" required>
+               </div>
+               <div>
+                   <label for="email">Email cím: *</label>
+                   <input id="email" name="email" type="email" placeholder="Cím" required>
+               </div>
+               <div>
+                   <label for="address">Cím: *</label>
+                   <input id="address" name="address" type="text" required>
+               </div>
+               <div>
+                   <label for="comment">Megjegyzés</label>
+                   <textarea id="comment" name="comment" rows="1"></textarea>
+               </div>
+           </fieldset>
+            <fieldset>
+                <legend>Termék Adatok</legend>
+                <div>
+                    <span>Extra feltét</span>
+                </div>
+     
+     
+     
+                <div>
+                     <input checked id="nothing" name="extra" type="radio" value="0">
+                     <label for="nothing">Nem kérek</label>
+                </div>
+                <div>
+                     <input id="cheese" name="extra" type="radio" value="300">
+                     <label for="cheese">feltét 1</label> 
+                 </div>
+                <div>
+                     <input id="double-cheese" name="extra" type="radio" value="600">
+                     <label for="double-cheese">feltét 2</label> 
+                </div>
+                <div>
+                     <input id="double-meat" name="extra"  type="radio" value="1000">
+                     <label for="double-meat">feltét 3</label>  
+                </div>
+                <div>
+                     <input id="double-double" name="extra" type="radio" value="1600">
+                     <label for="double-double">feltét 4</label>
+                </div>
+                <div>
+                     <input id="valami más" name="extra" type="radio" value="1800">
+                     <label for="valami más">feltét 5</label>
+                </div>
+     
+                <div>
+                     <label for="sauce">Szósz:</label>
+                     <select id="sauce" name="sauce">
+                         <option value="0">szósz 1</option>
+                         <option value="100">szósz 2</option>
+                         <option value="100" selected>szósz 3</option>
+                     </select>
+                </div>
+                <div>
+                    <label for="quantity">Mennyiség: </label>
+                    <input id="quantity" name="quantity" type="number" min="1" max="10">
+                </div>
+            </fieldset>
+           <div>
+               <button>Rendelés leadása</button>
+               <span>Ár: 1200 Ft</span>
+           </div>
+       </form>
+   </div> 
+</body>
+</html>
