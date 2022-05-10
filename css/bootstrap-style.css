@@ -1,0 +1,11 @@
+.col {
+    border: 2px solid rgb(170, 158, 96);
+    background-color: rgb(228, 219, 177);
+    margin-bottom: 5px;
+    
+}
+
+.container {
+    padding: 25px;
+    border: 2px solid rgb(170, 158, 96);
+}
